@@ -1,0 +1,55 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  margin:5% 10% 5% 10%;
+  justify-content: center;
+  text-align: center;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../images/bg_1.jpg");
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 700px;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.bg h1 {
+  color: #fff;
+  line-height: 1;
+  font-family: "Dancing Script", cursive;
+  font-size: 10vw;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.bg p {
+  font-size: 18px;
+    font-weight: 700;
+    color: #e52b34;
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.overlay {
+  /* position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;  */
+  background: #000000;
+  opacity: .5;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
