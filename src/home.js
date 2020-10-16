@@ -1,3 +1,4 @@
+import '../css/style.css';
 const pageLoad = () => {
     const content = document.getElementById('content');
     
@@ -13,4 +14,4 @@ const pageLoad = () => {
     p.innerHTML = 'We provide the most amazing cuisine at any time specialy prepared by the best chefs there is';
     container.appendChild(p);
 }
-pageLoad();
+export { pageLoad };
