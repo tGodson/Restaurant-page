@@ -1,16 +1,6 @@
 body, html {
   height: 100%;
   margin: 0;
-}
-
-.container {
-  margin:5% 10% 5% 10%;
-  justify-content: center;
-  text-align: center;
-}
-
-.bg {
-  /* The image used */
   background-image: url("../images/bg_1.jpg");
   background-size: cover;
     background-repeat: no-repeat;
@@ -21,7 +11,13 @@ body, html {
     overflow: hidden;
 }
 
-.bg h1 {
+#content{
+  margin:5% 10% 5% 10%;
+  justify-content: center;
+  text-align: center;
+}
+
+#content h1 {
   color: #fff;
   line-height: 1;
   font-family: "Dancing Script", cursive;
@@ -30,7 +26,7 @@ body, html {
   margin-bottom: 40px;
 }
 
-.bg p {
+#content p {
   font-size: 18px;
     font-weight: 700;
     color: #e52b34;
@@ -46,14 +42,56 @@ body, html {
 }
 
 .overlay {
-  /* position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;  */
   background: #000000;
   opacity: .5;
   width: 100%;
   height: 100%;
   z-index: -1;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  background: #000000;
+    opacity: .8;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  color: #e52b34;
+  font-family: "Dancing Script", cursive;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.navbar-brand span {
+  color: white;
+  font-size: large;
+  font-weight: 200;
+}
+
+#navigation div{
+  list-style: none;
+  text-align: center;
+}
+
+.nav div:hover{
+  border-bottom: 3px solid  #e52b34;
+}
+
+.nav div{
+ margin-right: 15px;
+ padding: 5px;
+ text-align: center;
+ text-decoration: none;
+  color:#e52b34;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav{
+  display: flex;
+  text-align: center;
 }

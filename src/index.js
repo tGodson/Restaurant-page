@@ -1,7 +1,5 @@
-import { pageLoad } from './home.js';
 import '../css/style.css';
-import _ from 'lodash';
-
-console.log('Hello');
-console.log('Hello again');
+import { pageLoad } from './home.js';
+import { nav } from './nav';
+nav();
 pageLoad();
