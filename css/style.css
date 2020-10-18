@@ -90,6 +90,7 @@ body, html {
   color:#e52b34;
   text-transform: uppercase;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .nav{

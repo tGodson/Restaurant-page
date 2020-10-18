@@ -26,14 +26,17 @@ const nav = () => {
     navigation.appendChild(nav);
 
     const home = document.createElement("div");
+    home.setAttribute('id', 'Home');
     home.innerHTML = 'Home';
     nav.appendChild(home);
 
     const menu = document.createElement("div");
+    menu.setAttribute('id', 'Menu');
     menu.innerHTML = 'Menu';
     nav.appendChild(menu);
 
     const contact = document.createElement("div");
+    contact.setAttribute('id', 'Contact');
     contact.innerHTML = 'Contact';
     nav.appendChild(contact);
 }
