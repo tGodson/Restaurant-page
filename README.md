@@ -62,7 +62,7 @@ Contributions and feature requests are welcome!
 Start by:
 
 - Forking the project
-- Cloning the project to your local machine
+- Clone the project to your local machine by running `git clone https://github.com/tGodson/Restaurant-page.git`
 - `cd` into the project directory
 - Run `git checkout -b your-branch-name`
 - Make your contributions
