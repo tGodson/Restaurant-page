@@ -1,5 +1,5 @@
 /* eslint-disable func-names */
-import '../css/style.css';
+import '../src/css/style.css';
 import nav from './nav';
 import pageLoad from './home';
 import menu from './menu';

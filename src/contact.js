@@ -1,4 +1,4 @@
-import '../css/style.css';
+import '../src/css/style.css';
 
 const contact = () => {
   const content = document.getElementById('content');

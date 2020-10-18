@@ -1,4 +1,4 @@
-import '../css/style.css';
+import '../src/css/style.css';
 
 const pageLoad = () => {
   const content = document.getElementById('content');
