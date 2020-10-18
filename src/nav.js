@@ -1,4 +1,4 @@
-import '../src/css/style.css';
+import './css/style.css';
 
 const nav = () => {
   const contentnav = document.getElementById('content');
