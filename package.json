@@ -1,12 +1,13 @@
 {
-  "name": "restaurant-page",
+  "name": "Restaurant-page",
   "version": "1.0.0",
   "description": "",
   "private": true,
   "scripts": {
     "start": "webpack --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/tGodson/Restaurant-page/issues"
   },
-  "homepage": "https://github.com/tGodson/Restaurant-page#readme",
+  "homepage": "http://tGodson.github.io/Restaurant-page",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^5.0.0",
@@ -25,6 +26,7 @@
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
     "file-loader": "^6.1.1",
+    "gh-pages": "^3.1.0",
     "html-loader": "^1.3.2",
     "html-webpack-plugin": "^4.5.0",
     "style-loader": "^2.0.0",
